@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Curriculum Vitae</h1>
+</header>
+
+<nav>
+
+    <script>
+        $(document).ready(function(){
+            $(".but").hide(); index();
+            $("#jpg").click(function(){
+                $(".but").toggle(1000);
+            });
+
+        });
+    </script>
+
+
+    <button type="button" id="jpg" style="background-color: black; color: white" > <img src="omfc.jpg" alt="Mountain View" style="width:100px;height:100px;"> </button><br>
+    <button type="button" class="but" onclick="myFunction1()" style="background-color: black; color: white">ԿՐԹՈՒԹՅՈՒՆ</button><br>
+    <button type="button" class="but" onclick="myFunction2()" style="background-color: black; color: white">ԱՇԽԱՏԱՆՔԱՅԻՆ  ՓՈՐՁ</button><br>
+    <button type="button" class="but" onclick="myFunction3()" style="background-color: black; color: white">ՄԱՍՆԱԳԻՏԱՑՈՒՄ</button><br>
+    <button type="button" class="but" onclick="myFunction4()" style="background-color: black; color: white">ԼԵԶՈՒՆԵՐԻ  ԻՄԱՑՈՒԹՅՈՒՆ</button><br>
+    <button type="button" class="but" onclick="myFunction5()" style="background-color: black; color: white">ՀԱՄԱԿԱՐԳՉԱՅԻՆ  ՀՄՏՈՒԹՅՈՒՆՆԵՐ</button><br>
+    <script >
+        function index()
+        {
+            alert("Ողջ նկարագիրը տեսնելու համար սեղմեք նկարին");
+        }
+
+    </script>
+</nav>
+
+<section id="demo">
+    <script>
+        function myFunction1() {
+            document.getElementById("demo").innerHTML = <list>"Սեպտեմբեր, 2009 – հունիս, 2013 Երևանի պետական ճարտարագիտական համալսարան Ինֆորմատիկա և հաշվողական տեխնիկա ֆակուլտետ";</list>
+        }
+    </script>
+    <script>
+        function myFunction2() {
+            document.getElementById("demo").innerHTML = "Օգոստոս, 2015 – հունիս, 2013	<< Նորակերտի միգնակարգ դպրոց>> ՊՈԱԿ";
+        }
+    </script>
+    <script>
+        function myFunction3() {
+            document.getElementById("demo").innerHTML = "Էլեկտրոնային հաշվողական միջոցների նախագծում և տեխնոլոգիա";
+        }
+    </script>
+    <script>
+        function myFunction4() {
+            document.getElementById("demo").innerHTML = "Հայերեն, ռուսերեն, անգլերեն(զարգացման փուլում)";
+        }
+    </script>
+    <script>
+        function myFunction5() {
+            document.getElementById("demo").innerHTML = "MS Windows XP,7,8, Linux,  MS Office, Internet, Adobe Photoshop, CorelDRAW, HTML5, CSS, Bootstrap, Codeigniter";
+        }
+    </script>
+
+    <h1>ԻՆՔՆԱԿԵՆՍԱԳՐՈՒԹՅՈՒՆ <br> ԱՍԼԱՆՅԱՆ ՎԱՉԱԳԱՆ</h1>
+    <p>            Հեռ.` (+374 98) 85 76 58<br>
+        Էլ. հասցե`<a href="mailto:vachagan.aslanyan.1992@mail.ru? subject=Աշխատանքի առաջարկ">vachagan.aslanyan.1992@mail.ru</a><br>
+        Ծննդյան ամսաթիվը`29.11.1992թ.<br>
+        Ծննդավայրը`
+        <a href="https://www.google.ru/maps/place/%D0%90%D1%80%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F/@40.0673176,43.9195833,8z/data=!3m1!4b1!4m2!3m1!1s0x40155684e773bac7:0xd0b4757aeb822d23">Հայաստան,</a>
+        <a href="https://www.google.ru/maps/place/%D0%92%D0%B0%D0%B3%D0%B0%D1%80%D1%88%D0%B0%D0%BF%D0%B0%D1%82,+%D0%90%D1%80%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F/@40.1428105,44.2773908,13z/data=!3m1!4b1!4m2!3m1!1s0x406a94d18ed5f5ed:0xfbe8dc7387ca2136"> ք. էջմիածին</a><br>
+        Ազգությունը` հայ</p>
+
+</section>
+
+<footer>
+    Copyright © omfc.com
+</footer>
+
+</body>
+</html>
